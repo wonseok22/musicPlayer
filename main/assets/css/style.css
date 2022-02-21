@@ -23,10 +23,12 @@ body {
     background-color: rgb(0, 0, 0);
     position: fixed;
     font-size: 2em;
-    padding: 27px 107px 26px 24px;
-    width: 114px;
+    padding: 27px 24px 26px 24px;
+    width: 245px;
 }
 #aside .logo a {
+    display: block;
+    width: 100vw;
     color: #fff;
 }
 #aside .logo em {
@@ -117,9 +119,9 @@ box-shadow: inset 0px 0px 5px white;
 .add_info {
     position: fixed;
     bottom: 80px;
-    width: 205px;
+    width: 245px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 25px;
     padding-bottom: 20px;
     background: #000;
 }
