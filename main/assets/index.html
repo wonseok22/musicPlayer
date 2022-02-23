@@ -41,8 +41,97 @@
                 <a href="#">데스크톱앱 설치</a>
             </div>
         </aside>
-        <main id="main"></main>
-        <div class="play_list">오늘 뭐듣지</div>
+        <main id="main">
+            <section id="banner">이미지와 텍스트로 이루어진 배너</section>
+            <article class="magazine">
+                <h2><a href="#">매거진</a></h2>
+                <div class="m_cont"> <!-- 이미지 보이는 구간 -->
+                    <div class="m_img"> <!--이미지 움직이는 구간-->
+                        <div class="img_box">
+                            <div class="image"></div>
+                            <div class="img_text">
+                                <a href="#"> New Release #80 :<br>
+                                    태연, 트로이 시반</a>
+                                <div>2022.02.21</div>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <div class="image"></div>
+                            <div class="img_text">
+                                <a href="#">
+                                    New Release #76 :<br>
+                                    FKA 트위그스, 박정현</a>
+                                <div>2022.01.17</div>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <div class="image"></div>
+                            <div class="img_text">
+                                <a href="#">
+                                    New Release #76 :<br>
+                                    FKA 트위그스, 박정현</a>
+                                <div>2022.01.17</div>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <div class="image"></div>
+                            <div class="img_text">
+                                <a href="#">
+                                    New Release #76 :<br>
+                                    FKA 트위그스, 박정현</a>
+                                <div>2022.01.17</div>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <div class="image"></div>
+                            <div class="img_text">
+                                <a href="#">
+                                    New Release #76 :<br>
+                                    FKA 트위그스, 박정현</a>
+                                <div>2022.01.17</div>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <div class="image"></div>
+                            <div class="img_text">
+                                <a href="#">
+                                    New Release #76 :<br>
+                                    FKA 트위그스, 박정현</a>
+                                <div>2022.01.17</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="news">
+                <h2>NEWS</h2>
+            </article>
+            <article class="mixtape">
+                <h2>나를 위한 믹스테잎</h2>
+            </article>
+            <article class="recent">
+                <h2>최근 들은 노래</h2>
+            </article>
+            <article class="playlist">
+                <h2>내 취향 플레이리스트</h2>
+            </article>
+            <article class="recommend">
+                <h2>VIBE 추천 플레이리스트</h2>
+            </article>
+            <article class="newAlbum">
+                <h2>좋아할 최신 앨범</h2>
+            </article>
+            <footer id="footer"></footer>
+        </main>
+        <div class="player">오늘 뭐듣지</div>
     </div>
+    <script>
+        document.querySelector('#aside').addEventListener("mouseover",function(){
+            document.querySelector(".menu_wrap").classList.add("display")
+        })
+        document.querySelector('#aside').addEventListener("mouseout",function(){
+            document.querySelector(".menu_wrap").classList.remove("display")
+        })
+    </script>
 </body>
 </html>
