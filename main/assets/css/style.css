@@ -449,6 +449,7 @@ box-shadow: inset 0px 0px 5px white;
 }
 #footer .footer_cont a{
     color: rgb(168, 168, 168);
+    margin-right: 15px;
 }
 #footer .footer_cont a:hover{
     text-decoration: underline;
